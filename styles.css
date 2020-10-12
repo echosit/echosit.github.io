@@ -1,0 +1,311 @@
+/********** Global CSS ***********/
+#Homepage {
+ text-align: center;
+ margin: auto;
+}
+#hide {
+  display: none;
+}
+.center {
+  text-align: center;
+}
+body {
+  font-family: 'Source Code Pro', sans-serif;
+  letter-spacing: 2px;
+}
+h1, h5, .noto{
+  font-family: 'Roboto', monospace;
+}
+.background {
+  padding: 10% 15%;
+  background-color: #E8E8E8;
+  color: #303030;
+}
+
+.fullscreen {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 74px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.removeOutline {
+  outline: none !important;
+}
+
+/********** Buttons and Links ***********/
+.buttonLink{
+  border: 0;
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .3rem;
+  padding: inherit 100px;
+}
+.linkSpace {
+  margin-left: 20px;
+}
+.linkColor {
+color: #A8A8A8;
+}
+a:hover {
+  text-decoration: none;
+  outline: none !important;
+}
+a {
+  outline: none !important;
+}
+
+
+
+/************** Navbar ****************/
+
+/* Removing the chrome border from menu icon in navbar */
+button:focus {outline:0;}
+button {
+  outline: none; !important;
+}
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+/* Removing border from bootstrap menu icon in navbar */
+.navbar-toggler{
+  border: 0 !important;
+  position: relative;
+  right: 11px;
+}
+/* NavBar Container and Background */
+.navbar-container {
+  	text-align: center;
+    background-color: rgba(255,255,255, 0.9);
+}
+/* Hover Effects for NavBar */
+.navbar-toggler:hover{
+  color: black;
+}
+a:hover a:active{
+  color: black;
+}
+/* NavBar Item Spacing, Size, etc. */
+.nav-item {
+  margin-left: 20px;
+}
+.nav-link {
+  max-width: 75px;
+  margin: 0 auto;
+}
+.nav-center {
+  position: relative;
+}
+.underline{
+  position: relative;
+  margin-top: 6.5px;
+}
+/* Navbar About Color */
+.aboutLink {
+  color: #007bff !important;
+}
+/* NavBar Active Styling*/
+.underline:hover{
+border-bottom: 2px solid #383838;
+color: #383838 !important;
+}
+.activeNav {
+  border-bottom: 2px solid #383838;
+  color: #383838 !important;
+}
+
+
+/************** Homepage CSS *************/
+.title {
+  font-size: 3.5rem;
+  font-family: 'Source Code Pro', monospace;
+}
+.subtitle {
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+  color: #606060;
+}
+/* Removing Responsive Emoji */
+.smallTooltip {
+  display: none;
+}
+
+
+/************** About Page CSS *************/
+.aboutHeading {
+ letter-spacing: 3px;
+ color: #606060;
+  font-family: 'Source Code Pro', monospace;
+}
+.aboutText {
+ letter-spacing: 3px;
+ font-family: 'Roboto', monospace;
+ line-height: 2.2rem;
+ font-size: 1.3rem;
+}
+.aboutImage {
+  float: left;
+  max-width: 350px;
+  height: auto;
+  padding-right: 20px;
+}
+.resumeButton {
+  margin: 0 auto;
+}
+/* Dividers for Facts Section */
+.gridOutline {
+  border-top: 4px solid #C8C8C8;
+  border-bottom: 4px solid #C8C8C8;
+  width: 100%
+}
+
+
+/************** About Page Timeline CSS *************/
+/* Removing Responsive Timeline */
+.smallTimeline {
+  display: none;
+}
+/* Timeline Styling*/
+.timelineHeading {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+.timelineSubheading {
+  color: 	#989898;
+  font-size: 1rem;
+  letter-spacing: 3px;
+}
+.timelineText {
+  font-size: 1.2rem;
+  color: #505050;
+  font-family: 'Roboto', monospace;
+  letter-spacing: 3px;
+}
+.timelineDate {
+  color: #505050;
+  font-size: 1.2rem;
+  font-family: 'Roboto', monospace;
+  letter-spacing: 3px;
+}
+
+/************** Pretty Divider *************/
+.hrContainer {
+  width:100%;
+  text-align: center;
+}
+hr {
+  border-top: 7px dotted #D3D3D3;
+  height:60px;
+  width: 100px;
+  margin-top: 65px;
+}
+
+
+/************** Portfolio CSS *************/
+.card {
+  max-width: 650px;
+}
+/* Portfolio Styling*/
+.portfolioTitle {
+  letter-spacing: 3px;
+  color: #606060;
+   font-family: 'Source Code Pro', monospace;
+}
+.portfolioHeading {
+  color: 	#989898;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  font-family: 'Source Code Pro', monospace;
+}
+.portfolioSubheading {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  font-family: 'Roboto', monospace;
+  font-weight: 500;
+}
+.portfolioText {
+  font-size: 1.2rem;
+  color: #505050;
+  letter-spacing: 3px;
+}
+.portfolioButton {
+  font-size: 1rem;
+}
+
+
+/************** Footer CSS *************/
+.footer {
+  position: fixed;
+  text-align: center;
+  padding-top: 17px;
+  height: 56px;
+  bottom: 0;
+  width: 100%;
+  color: #808080;
+  background-color: #E8E8E8;
+}
+
+
+
+/******* Responsive CSS ***********/
+
+@media screen and (max-width: 800px) {
+
+/* Navbar */
+.navbar-brand {
+    display: none;
+}
+.navbar-toggler {
+  margin: 0 auto;
+  position: relative;
+  left: 43px;
+}
+.nav-item {
+  margin-left: 0;
+}
+
+/* Homepage Emoji Tooltip */
+.responsiveTooltip {
+  display: none;
+}
+.smallTooltip {
+  display: block;
+}
+
+/* About Page */
+.aboutImage {
+  max-width: 100%;
+  padding-bottom: 45px;
+}
+.aboutHeading {
+ text-align: center;
+}
+.aboutText {
+ text-align: center;
+}
+
+/* Timeline */
+.bigTimeline {
+  display: none;
+}
+.smallTimeline {
+  display: block;
+  position: relative;
+  right: 100%;
+  width: 200%;
+}
+
+/* Adding Extra Space so Navbar doesn't cover stuff up */
+.fullscreen {
+  padding-top: 74px;
