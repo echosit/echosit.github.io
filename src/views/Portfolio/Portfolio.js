@@ -26,7 +26,7 @@ const Portfolio = props => {
             title="Portfolio Website"
             resources="ReactJS • Material UI • Bootstrap"
             content="A responsive, animated portfolio site implementing Material UI and Bootstrap. I used React Router to create the separate Home, Work, and About links within the navigation bar."
-            github="https://github.com/echosit/Portfolio"
+            github="https://github.com/echosit/echosit.github.io"
             hide="hide"
            />
 
