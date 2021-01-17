@@ -22,7 +22,7 @@
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
  }
  .background {
-   padding: 12% 15%;
+   padding: 15% 15%;
  }
  .fullscreen {
    position: absolute;
@@ -386,7 +386,7 @@
   line-height: 1.2;
 }
 .textHeading {
-  font-size: 3.3rem; 
+  font-size: 3rem; 
   font-weight: bold;
 }
 .textSubheading {
